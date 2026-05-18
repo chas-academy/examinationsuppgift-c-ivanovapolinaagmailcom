@@ -15,6 +15,17 @@ int main(){
 
     int best = 0;
 
+    for (i = 0; i < 5; i++){
+        scanf("%s", names[i]);
+        sum = 0;
+        for (j = 0; j < 13; j++){
+            scanf("%d", &point);
+            sum = sum + point;
+        }
+    }
+
+
+
 
     return 0;
 }
