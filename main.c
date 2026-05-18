@@ -24,6 +24,10 @@ int main(){
         }
         average[i] = sum / 13.0;
         total = total + average[i];
+
+        if (names[i][0] >= 'a' && names [i][0] <= 'z'){
+            names[i][0] = names[i][0] - 32;
+        }
     }
 
 
