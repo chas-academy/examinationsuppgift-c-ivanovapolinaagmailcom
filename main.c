@@ -22,8 +22,9 @@ int main(){
             scanf("%d", &point);
             sum = sum + point;
         }
+        average[i] = sum / 13.0;
+        total = total + average[i];
     }
-
 
 
 
