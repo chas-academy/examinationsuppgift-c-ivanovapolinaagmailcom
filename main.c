@@ -34,7 +34,7 @@ int main(){
             best = i;
         }
     }
-
+    group_average = total / 5.0;
 
     return 0;
 }
