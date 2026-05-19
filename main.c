@@ -29,7 +29,11 @@ int main(){
             names[i][0] = names[i][0] - 32;
         }
     }
-
+    for (i = 1; i < 5; i++){
+        if (average[i] > average[best]){
+            best = i;
+        }
+    }
 
 
     return 0;
