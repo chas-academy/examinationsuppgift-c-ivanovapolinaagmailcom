@@ -36,6 +36,14 @@ int main(){
     }
     group_average = total / 5.0;
 
+    printf("%s\n", names[best]);
+    for (i = 0; i < 5; i++){
+        if (average[i] < group_average){
+            printf("%s\n", names[i]);
+        }
+
+    }
+
     return 0;
 }
 
